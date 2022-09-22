@@ -17,4 +17,5 @@ def display1(request):
     )
 
 def display2(request):
-    return HttpResponse('<text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has beens standard dummy text ever since , when an unknown printer took a galley of scrambled it to make a specimen book. It has survived only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised the the release of Letraset sheets containing Lorem Ipsum passages,more recently desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</text>')
+    return HttpResponse('<h1>Segunda Página con Texto</h1>'
+        '<text>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has beens standard dummy text ever since , when an unknown printer took a galley of scrambled it to make a specimen book. It has survived only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised the the release of Letraset sheets containing Lorem Ipsum passages,more recently desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</text>')
